@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>StudentScore</display-name>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.dgut.sc.controler.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>StudentInfoServlet</servlet-name>
+		<servlet-class>com.dgut.sc.controler.StudentInfoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateStuPwdServlet</servlet-name>
+		<servlet-class>com.dgut.sc.controler.UpdateStuPwdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.dgut.sc.controler.LogoutServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>UpdateAdminPwdServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.UpdateAdminPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteStuServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.DeleteStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetStuToUpdateServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.GetStuToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateStuServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.UpdateStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddStuServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.AddStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminToTeaServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.AdminToTeaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTeaServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.AddTeaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteTeaServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.DeleteTeaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetTeaToUpdateServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.GetTeaToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateTeaServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.UpdateTeaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminToCourseServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.AdminToCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCourseServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.AddCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCourseToUpdateServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.GetCourseToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCourseServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.UpdateCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.DeleteCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TeacherInfoServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.TeacherInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddScoreServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.AddScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteScoreServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.DeleteScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetScoreToUpdateServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.GetScoreToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateScoreServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.UpdateScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateTeaPwdServlet</servlet-name>
+    <servlet-class>com.dgut.sc.controler.UpdateTeaPwdServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StudentInfoServlet</servlet-name>
+		<url-pattern>/StudentInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateStuPwdServlet</servlet-name>
+		<url-pattern>/UpdateStuPwdServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAdminPwdServlet</servlet-name>
+    <url-pattern>/UpdateAdminPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStuServlet</servlet-name>
+    <url-pattern>/DeleteStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStuToUpdateServlet</servlet-name>
+    <url-pattern>/GetStuToUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStuServlet</servlet-name>
+    <url-pattern>/UpdateStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStuServlet</servlet-name>
+    <url-pattern>/AddStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminToTeaServlet</servlet-name>
+    <url-pattern>/AdminToTeaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTeaServlet</servlet-name>
+    <url-pattern>/AddTeaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTeaServlet</servlet-name>
+    <url-pattern>/DeleteTeaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTeaToUpdateServlet</servlet-name>
+    <url-pattern>/GetTeaToUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTeaServlet</servlet-name>
+    <url-pattern>/UpdateTeaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminToCourseServlet</servlet-name>
+    <url-pattern>/AdminToCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCourseServlet</servlet-name>
+    <url-pattern>/AddCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCourseToUpdateServlet</servlet-name>
+    <url-pattern>/GetCourseToUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCourseServlet</servlet-name>
+    <url-pattern>/UpdateCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <url-pattern>/DeleteCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherInfoServlet</servlet-name>
+    <url-pattern>/TeacherInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddScoreServlet</servlet-name>
+    <url-pattern>/AddScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteScoreServlet</servlet-name>
+    <url-pattern>/DeleteScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetScoreToUpdateServlet</servlet-name>
+    <url-pattern>/GetScoreToUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateScoreServlet</servlet-name>
+    <url-pattern>/UpdateScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTeaPwdServlet</servlet-name>
+    <url-pattern>/UpdateTeaPwdServlet</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
